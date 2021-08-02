@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org/"
+baseURL = "http://finterest.net/"
 title = "Finterest"
 theme = "bigspring"
 # post pagination
