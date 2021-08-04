@@ -88,11 +88,11 @@ screenshot:
 ##################### Call to action #####################
 call_to_action:
   enable : true
-  title : "Ready to get started?"
+  title : "Contact Us"
   image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.<br>Phone: +88 125 256 452 <br>Mail: info@bigspring.com <br>Address: 360 Main rd, Rio, Brazil"
   button:
-    enable : true
+    enable : false
     label : "Contact Us"
     link : "contact"
 ---
