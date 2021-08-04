@@ -1,4 +1,4 @@
-baseURL = "http://finterest.net/"
+baseURL = "https://finterest.net/"
 languageCode = "en-us"
 title = "Finterest"
 theme = "bigspring"

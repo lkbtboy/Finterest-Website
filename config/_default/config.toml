@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://finterest.net/"
+baseURL = "https://finterest.net/"
 title = "Finterest"
 theme = "bigspring"
 # post pagination
