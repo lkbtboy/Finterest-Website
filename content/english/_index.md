@@ -2,7 +2,7 @@
 ####################### Banner #########################
 banner:
   title : "Global crypto prime brokerage business and integrated service provider"
-  image : "images/banner-art.svg"
+  image : "images/screenshot.svg"
   content : ""
   button:
     enable : false
