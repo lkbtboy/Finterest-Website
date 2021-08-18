@@ -1,9 +1,9 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Global crypto prime brokerage business and integrated service provider"
-  image : "images/screenshot.svg"
-  content : ""
+  title : "Global crypto prime brokerage business<br> and integrated service provider"
+  image : "images/title.png"
+  content : "Finterest's mission is to channel and structure global<br> resources in regard to blockchain business and digital<br> assets for our clients and help them better the capital<br> allocation strategies and transform their businesses for<br> the upcoming crypto economy."
   button:
     enable : false
     label : "Contact Us"
@@ -12,22 +12,27 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Main Business"
+  title : "It has never been easier to<br> manage crypto assets because<br> of us——"
   feature_item:
     # feature item loop
-    - name : "Crypto Prime Broker"
+    - name : "Global Market Broker"
       icon : "fas fa-code"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Based on the online platform and offline investment advisory business development, FINTEREST develops professional brokerage business for 2B and 2C clients, including securities lending, leveraged transaction execution, custody compliance and professional consulting services."
       
     # feature item loop
     - name : "Crypto Asset Manager"
       icon : "fas fa-object-group"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "FINTEREST provides the most professional fund management services in the encrypted digital asset market, including multiple types of encrypted digital asset investment funds, such as possitive management fund and mining in crypto."
       
     # feature item loop
-    - name : "Crypto Business Service Provider"
+    - name : "NFT & Metaverse Incubator"
       icon : "fas fa-user-clock"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "FINTEREST established NFT asset system through investment incubation and mergers and acquisitions. Key incubation and acquisition of NFT industries and assets include: digital art, Metaverse, emerging game industry, blockchain finance, IP intellectual property transactions, etc."
+
+    # feature item loop
+    - name : "Consulter of Transform Investment"
+      icon : "fas fa-user-clock"
+      content : "FINTEREST provides professional digital asset investment advisory services for large and medium-sized enterprises around the world, and based on this, it is promoted in the world's important financial cities to obtain comprehensive cooperation with PB business and 2C customers."
       
 
 

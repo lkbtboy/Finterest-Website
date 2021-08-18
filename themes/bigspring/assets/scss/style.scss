@@ -1,13 +1,15 @@
 // Color Variables
 {{ with site.Params.variables }}
-$primary-color: {{.primary_color | default "#0AA8A7"}};
-$text-color: {{.text_color | default "#777"}};
+$primary-color: {{.primary_color | default "#313131"}};
+$text-color: {{.text_color | default "#313131"}};
 $text-color-dark: {{.text_color_dark | default "#222"}};
 $body-color: {{.body_color | default "#fff"}};
 $border-color: {{.border_color | default "#ECECEC"}};
 $black: {{.black | default "#000"}};
 $white: {{.white | default "#fff"}};
 $light: {{.light | default "#EDF6F5"}};
+
+$mobile-max-width: 768px;
 
 // Font Variables
 $primary-font: '{{ replaceRE ":[ital,]*wght@[0-9,;]+" "" .primary_font | default "Lato"}}', {{.primary_font_type | default "sans-serif"}};

@@ -1,7 +1,13 @@
 // banner
 .banner {
   padding: 100px 0 50px;
+  background-color: #1B1B68;
 }
+
+.banner-content {
+  padding: 50px 0 20px;
+}
+
 
 .feature-card {
   border-radius: 10px;
@@ -20,11 +26,15 @@
   }
 }
 
+.feature-content {
+  padding: 10px 0 30px;
+}
+
 .footer-list a {
   display: block;
   padding: 5px 0;
   font-size: 16px;
-  color: $text-color;
+  color: $text-color-dark;
   margin: 8px 0;
 
   &:hover {
@@ -79,12 +89,13 @@ a.post-title {
     margin-bottom: 15px;
   }
 
+  color: $text-color-dark;
   strong {
     font-weight: 600;
   }
 
   a {
-    color: $text-color;
+    color: text-color-dark;
     border-bottom: 1px dotted $border-color;
 
     &:hover {

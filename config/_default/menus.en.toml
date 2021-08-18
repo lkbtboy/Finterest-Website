@@ -1,16 +1,16 @@
 # main menu
 [[main]]
-name = "Home"
+name = "Products"
 url = "/"
 weight = 1
 
 [[main]]
-name = "Blog"
+name = "Team"
 url = "blog"
 weight = 2
 
 [[main]]
-name = "Pricing"
+name = "About"
 url = "pricing"
 weight = 3
 
@@ -20,7 +20,7 @@ url = "contact"
 weight = 4
 
 [[main]]
-name = "FAQ"
+name = "Support"
 url = "faq"
 weight = 5
 
