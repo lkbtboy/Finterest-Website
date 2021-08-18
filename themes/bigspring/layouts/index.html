@@ -48,6 +48,87 @@
 {{ end }}
 <!-- /feature -->
 
+<!-- marketbroker -->
+{{ with .Params.marketbroker }}
+<section class="section bg-dark">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-left">
+        <h2 class="section-title">{{ .topic | markdownify }}</h2>
+      </div>
+      <div class="col-md-6 order-1 order-md-1">
+        <div class="row justify-content-center">
+          <div class="col-12 text-left">
+            <h3 class="section-title">{{ .title | markdownify }}</h2>
+            <p class="common-p">{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 order-2 order-md-2 mb-4 mb-md-0">
+      {{ range .service_item }}
+        <div class="row">
+          <div class="col-md-5 mb-5 mb-md-0">
+            {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid" >{{end}}
+          </div>
+          <div class="col-md-7">
+            <div class="text-left">
+            <h3 class="mb-2 ">{{ .title | title }}</h4>
+            <br>
+            <p class="common-p">{{ .content | markdownify }}</p>
+          </div>
+          </div>
+        </div>
+      {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /marketbroker -->
+
+<!-- cryptoasset -->
+{{ with .Params.cryptoasset }}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-left">
+        <h2 class="section-title">{{ .topic | markdownify }}</h2>
+      </div>
+    <div>
+    <div class="row justify-content-center">  
+    {{ range $i,$p := .service_item }}
+    {{if modBool $i 2}}
+      <div class="col-md-6 col-sm-6 mb-6 feature-content">
+        <div class="text-left">
+          <h4 class="mb-2 ">{{ .title | title }}</h4>
+          <br>
+          <p class="common-p">{{ .content | markdownify }}</p>
+          <div class="col-md-6 mb-6 ">
+            {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid" >{{end}}
+          </div>
+        </div>
+      </div>
+    {{ else }}
+      <div class="col-md-6 col-sm-6 mb-6 feature-content">
+        <div class="text-left">
+          <div class="col-md-6 mb-6">
+            {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid" >{{end}}
+          </div>
+          <br>
+          <h4 class="mb-2 ">{{ .title | title }}</h4>
+          <br>
+          <p class="common-p">{{ .content | markdownify }}</p>
+        </div>
+      </div>
+    {{ end }}
+    {{ end }}
+    </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /cryptoasset -->
+
 <!-- service -->
 {{ with .Params.service }}
 {{ if .enable }}

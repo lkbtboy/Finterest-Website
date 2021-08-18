@@ -34,8 +34,29 @@ feature:
       icon : "fas fa-user-clock"
       content : "FINTEREST provides professional digital asset investment advisory services for large and medium-sized enterprises around the world, and based on this, it is promoted in the world's important financial cities to obtain comprehensive cooperation with PB business and 2C customers."
       
+################### Global Market Broker ########################
+marketbroker:
+  topic : "Global Market Broker"
+  title : "Safe, Convenient and Diverse"
+  content : "With an extensive corporate resource network and professional digital financial business foundation, FINTEREST provides professional targeted and non-targeted digital encryption business investment advisory services to enterprises and high-net-worth clients, and develops a complete brokerage business on this basis."
+  service_item:
+    - title : "To C"
+      image : "images/toc.jpg"
+      content : "Use standardized data from top exchanges to build model indicators, provide a variety of trading strategies, and provide professional bot tools."
+    - title : "To B"
+      image : "images/tob.jpg"
+      content : "Provide global to B needed various financial investment services under the new digital financial system, including various services such as buying and selling transactions, custody compliance, leveraged lending..."
 
-
+################### Crypto Asset Management ########################
+cryptoasset:
+  topic : "Crypto Asset Management"
+  service_item:
+    - title : "Mining"
+      image : "images/toc.jpg"
+      content : "Finterest is committed to work with the most compliant mines globally, and mainly focuses on mine operation and acquisition business, mining machine acquisition and custody business, digital mining investment management business."
+    - title : "Crypto Asset"
+      image : "images/tob.jpg"
+      content : "The passive investment strategy is the main strategy used by Finterest, other management such as active digital asset management and digital asset quantitative hedge fund can also be customized for customers.<br>FINTEREST Digital Asset Fund of Funds is the first fund established in 2021, investing in passively managed funds of funds managed by the top digital asset fund GP."
 ######################### Service #####################
 service:
   enable : true
