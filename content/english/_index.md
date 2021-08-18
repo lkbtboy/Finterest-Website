@@ -57,52 +57,31 @@ cryptoasset:
     - title : "Crypto Asset"
       image : "images/tob.jpg"
       content : "The passive investment strategy is the main strategy used by Finterest, other management such as active digital asset management and digital asset quantitative hedge fund can also be customized for customers.<br>FINTEREST Digital Asset Fund of Funds is the first fund established in 2021, investing in passively managed funds of funds managed by the top digital asset fund GP."
-######################### Service #####################
-service:
-  enable : true
+
+################### NFT ########################
+nft:
+  topic : "NFT & Metaverse Incubator"
+  content : "Finterest’s key incubation and acquisition of NFT industries and assets include: digital art, Metaverse, emerging game industry, blockchain finance, IP intellectual property transactions, etc."
+  title : "NFT's multiple investment methods"
   service_item:
-    # service item loop
-    - title : "Crypto Prime Broker"
-      images:
-      - "images/service-1.png"
-      - "images/service-2.png"
-      - "images/service-3.png"
-      content : "1, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.<br>2,Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable : false
-        label : "Check it out"
-        link : "#"
-        
-    # service item loop
-    - title : "Crypto Asset Manager-Mining"
-      images:
-      - "images/service-1.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable : false
-        label : "Check it out"
-        link : "#"
-        
-    # service item loop
-    - title : "Crypto Asset Manager-Asset"
-      images:
-      - "images/service-2.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable : false
-        label : "Check it out"
-        link : "#"
-        
-    # service item loop
-    - title : "NFT"
-      images:
-      - "images/service-3.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable : false
-        label : "Check it out"
-        link : "#"
-        
+    - title : "Direct transaction"
+      image : "images/nft1.jpg"
+    - title : "Invest in the NFT Industry Chain"
+      image : "images/nft2.jpg"
+    - title : "Trading assets in Metaverse"
+      image : "images/nft3.jpg"
+
+################### work ########################
+work:
+  enable : true
+  title : "Working at Finterest"
+  content : "Our mission is to increase economic freedom，for people and the world. Join us and make an impact on a global scale."
+
+################### contact ########################
+contact:
+  title : "Contact Us"
+  content : "Our mission is to increase economic freedom，for people and the world. Join us and make an impact on a global scale."
+  
 ################### Screenshot ########################
 screenshot:
   enable : false

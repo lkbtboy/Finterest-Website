@@ -229,6 +229,9 @@ a:hover {
 .bg-dark {
   background-color: #A1A2A6 !important; }
 
+.bg-yellow {
+  background-color: #BEB597 !important; }
+
 .text-primary {
   color: #0AA8A7 !important; }
 
@@ -542,4 +545,9 @@ a.post-title {
 .common-p {
   font-size: 18px;
   line-height: 1.5;
+  color: #313131; }
+
+.work-p {
+  font-size: 22px;
+  line-height: 2;
   color: #313131; }
