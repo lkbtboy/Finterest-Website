@@ -52,10 +52,10 @@ cryptoasset:
   topic : "Crypto Asset Management"
   service_item:
     - title : "Mining"
-      image : "images/toc.jpg"
+      image : "images/mining.jpg"
       content : "Finterest is committed to work with the most compliant mines globally, and mainly focuses on mine operation and acquisition business, mining machine acquisition and custody business, digital mining investment management business."
     - title : "Crypto Asset"
-      image : "images/tob.jpg"
+      image : "images/asset.jpg"
       content : "The passive investment strategy is the main strategy used by Finterest, other management such as active digital asset management and digital asset quantitative hedge fund can also be customized for customers.<br>FINTEREST Digital Asset Fund of Funds is the first fund established in 2021, investing in passively managed funds of funds managed by the top digital asset fund GP."
 
 ################### NFT ########################

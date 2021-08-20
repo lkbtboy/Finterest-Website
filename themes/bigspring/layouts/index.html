@@ -26,12 +26,12 @@
 <section class="section bg-light">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 px-0 text-left">
+      <div class="col-12 px-1 text-left">
         <p class="section-title Sectiontitle-p text-left">{{ .title | markdownify }}</p>
       </div>
       {{ range .feature_item }}
       <div class="col-md-6 col-sm-6 mb-6 feature-content">
-        <div class="text-left">
+        <div class="text-left px-1">
           <h4 class="mb-2 ">{{ .name | title }}</h4>
           <p class="common-p pr-5">{{ .content | markdownify }}</p>
         </div>
@@ -49,11 +49,11 @@
 <section class="section bg-dark">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 px-0 text-left">
+      <div class="col-12 px-1 text-left">
         <p class="section-title Sectiontitle-p text-left">{{ .topic | markdownify }}</p>
       </div>
       <div class="col-md-5 order-1 order-md-1 align-self-center px-0">
-        <div class="row justify-content-center px-0 ">
+        <div class="row justify-content-center px-1 ">
           <div class="col-12 text-left">
             <h3 class="section-title mb-3">{{ .title | markdownify }}</h2>
             <p class="common-p">{{ .content | markdownify }}</p>
@@ -86,18 +86,18 @@
 <section class="section bg-light">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 px-0 text-left">
+      <div class="col-12 px-1 text-left">
         <p class="section-title Sectiontitle-p text-left">{{ .topic | markdownify }}</p>
       </div>
     <div>
-    <div class="row justify-content-center mx-0">  
+    <div class="row justify-content-center mx-0 px-1">  
     {{ range $i,$p := .service_item }}
     {{if modBool $i 2}}
       <div class="col-md-6 col-sm-6 mb-6 feature-content pr-3">
         <div class="text-left">
           <h4 class="mb-2 ">{{ .title | title }}</h4>
           <p class="common-p">{{ .content | markdownify }}</p>
-          <div class="col-md-6 mb-6 px-0">
+          <div class="col-md-6 mb-6 px-1">
             {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid" >{{end}}
           </div>
         </div>
@@ -105,7 +105,7 @@
     {{ else }}
       <div class="col-md-6 col-sm-6 mb-6 feature-content">
         <div class="text-left">
-          <div class="col-md-6 mb-6 px-0 pb-3">
+          <div class="col-md-6 mb-6 px-1 pb-3">
             {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid" >{{end}}
           </div>
           <h4 class="mb-2 ">{{ .title | title }}</h4>
@@ -126,11 +126,11 @@
 <section class="section bg-dark">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 px-0 text-left">
+      <div class="col-12 px-1 text-left">
         <p class="section-title Sectiontitle-p text-left">{{ .topic | markdownify }}</p>
       </div>
       <div class="col-12 px-0">
-        <div class="col-md-9 order-1 order-md-1 px-0">
+        <div class="col-md-9 order-1 order-md-1 px-1">
           <div class="row justify-content-center">
             <div class="col-12 text-left">
               <p class="common-p">{{ .content | markdownify }}</p>
@@ -164,17 +164,17 @@
 <section class="section bg-yellow">
   <div class="container">
     <div class="row">
-      <div class="col-8 px-0 text-left">
+      <div class="col-md-8  px-1 text-left">
         <div class="row">
           <div class="col-12 text-left">
             <h2 class="section-title">{{ .title | markdownify }}</h2>
           </div>
         </div>
-        <div class="col-lg-12  px-0 text-left">
+        <div class="col-lg-12  px-1 text-left">
           <p class="work-p">{{ .content | markdownify }}</p>
         </div>
       </div>
-      <div class="col-4 justify-content-center align-self-center">
+      <div class="col-md-4 justify-content-center align-self-center">
         {{ if .enable }}
           <div class="row justify-content-center align-items-center">
             <a href="#" title="view open positions" class="btn btn-primary">view open positions</a>
