@@ -1,18 +1,34 @@
 // This file is empty within the template
 // You can use it to override CSS from within your project
 
-.text-title{  color: #53CAc8 ;  }
+.text-title{  
+    font-size: 46px;
+    line-height: 1.5;
+    color: #53CAc8 ; 
+ }
 
 .title-p {
     font-size: 24px;
     line-height: 1.5;
-    text-align: left;
+    text-align: center;
     color: #C9CACE;
   
     @media only screen and (max-width: $mobile-max-width) {
       line-height: 1.75;
     }
   }
+
+  .Sectiontitle-p {
+    font-size: 34px;
+    line-height: 1.5;
+    text-align: center;
+    color: #111111;
+  
+    @media only screen and (max-width: $mobile-max-width) {
+      line-height: 1.75;
+    }
+  }
+
 
   .common-p {
     font-size: 18px;

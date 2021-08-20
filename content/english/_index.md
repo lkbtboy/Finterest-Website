@@ -1,7 +1,7 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Global crypto prime brokerage business<br> and integrated service provider"
+  title : "Global  Crypto Prime Brokerage Business And Integrated Service Provider"
   image : "images/title.png"
   content : "Finterest's mission is to channel and structure global<br> resources in regard to blockchain business and digital<br> assets for our clients and help them better the capital<br> allocation strategies and transform their businesses for<br> the upcoming crypto economy."
   button:
@@ -12,7 +12,7 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "It has never been easier to<br> manage crypto assets because<br> of us——"
+  title : "It Has Never Been Easier To<br> Manage Crypto Assets Because Of Us"
   feature_item:
     # feature item loop
     - name : "Global Market Broker"
@@ -81,7 +81,7 @@ work:
 contact:
   title : "Contact Us"
   content : "Our mission is to increase economic freedom，for people and the world. Join us and make an impact on a global scale."
-  
+
 ################### Screenshot ########################
 screenshot:
   enable : false

@@ -6,12 +6,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
-        <h1 class="mb-3 text-title">{{ .title | markdownify }}</h1>
-        <div class="row banner-content align-items-center">
-          <div class="col-md-4 mb-4 mb-md-0">
-            {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid" >{{end}}
-          </div>
-          <div class="col-md-8">
+        <p class="display-4 text-title pb-4">{{ .title | markdownify }}</p>
+        <div class="row align-self-center justify-content-center">
+          <div class="col-md-8 text-center">
             <p class= "title-p">{{ .content | markdownify }}</p>
           </div>
         </div>
@@ -29,15 +26,14 @@
 <section class="section bg-light">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 text-left">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
+      <div class="col-12 px-0 text-left">
+        <p class="section-title Sectiontitle-p text-left">{{ .title | markdownify }}</p>
       </div>
       {{ range .feature_item }}
       <div class="col-md-6 col-sm-6 mb-6 feature-content">
         <div class="text-left">
           <h4 class="mb-2 ">{{ .name | title }}</h4>
-          <br>
-          <p class="common-p">{{ .content | markdownify }}</p>
+          <p class="common-p pr-5">{{ .content | markdownify }}</p>
         </div>
       </div>
       {{ end }}
@@ -53,27 +49,26 @@
 <section class="section bg-dark">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 text-left">
-        <h2 class="section-title">{{ .topic | markdownify }}</h2>
+      <div class="col-12 px-0 text-left">
+        <p class="section-title Sectiontitle-p text-left">{{ .topic | markdownify }}</p>
       </div>
-      <div class="col-md-6 order-1 order-md-1 align-self-center">
-        <div class="row justify-content-center ">
+      <div class="col-md-5 order-1 order-md-1 align-self-center px-0">
+        <div class="row justify-content-center px-0 ">
           <div class="col-12 text-left">
-            <h3 class="section-title">{{ .title | markdownify }}</h2>
+            <h3 class="section-title mb-3">{{ .title | markdownify }}</h2>
             <p class="common-p">{{ .content | markdownify }}</p>
           </div>
         </div>
       </div>
-      <div class="col-md-6 order-2 order-md-2 mb-4 mb-md-0">
+      <div class="col-md-7 order-2 order-md-2 mb-4 mb-md-0">
       {{ range .service_item }}
-        <div class="row">
+        <div class="row pb-5">
           <div class="col-md-5 mb-5 mb-md-0">
             {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid" >{{end}}
           </div>
           <div class="col-md-7">
             <div class="text-left">
-            <h3 class="mb-2 ">{{ .title | title }}</h4>
-            <br>
+            <h3 class="mb-1">{{ .title | title }}</h4>
             <p class="common-p">{{ .content | markdownify }}</p>
           </div>
           </div>
@@ -91,19 +86,18 @@
 <section class="section bg-light">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 text-left">
-        <h2 class="section-title">{{ .topic | markdownify }}</h2>
+      <div class="col-12 px-0 text-left">
+        <p class="section-title Sectiontitle-p text-left">{{ .topic | markdownify }}</p>
       </div>
     <div>
-    <div class="row justify-content-center">  
+    <div class="row justify-content-center mx-0">  
     {{ range $i,$p := .service_item }}
     {{if modBool $i 2}}
-      <div class="col-md-6 col-sm-6 mb-6 feature-content">
+      <div class="col-md-6 col-sm-6 mb-6 feature-content pr-3">
         <div class="text-left">
           <h4 class="mb-2 ">{{ .title | title }}</h4>
-          <br>
           <p class="common-p">{{ .content | markdownify }}</p>
-          <div class="col-md-6 mb-6 ">
+          <div class="col-md-6 mb-6 px-0">
             {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid" >{{end}}
           </div>
         </div>
@@ -111,12 +105,10 @@
     {{ else }}
       <div class="col-md-6 col-sm-6 mb-6 feature-content">
         <div class="text-left">
-          <div class="col-md-6 mb-6">
+          <div class="col-md-6 mb-6 px-0 pb-3">
             {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid" >{{end}}
           </div>
-          <br>
           <h4 class="mb-2 ">{{ .title | title }}</h4>
-          <br>
           <p class="common-p">{{ .content | markdownify }}</p>
         </div>
       </div>
@@ -134,11 +126,11 @@
 <section class="section bg-dark">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 text-left">
-        <h2 class="section-title">{{ .topic | markdownify }}</h2>
+      <div class="col-12 px-0 text-left">
+        <p class="section-title Sectiontitle-p text-left">{{ .topic | markdownify }}</p>
       </div>
-      <div class="col-12">
-        <div class="col-md-9 order-1 order-md-1">
+      <div class="col-12 px-0">
+        <div class="col-md-9 order-1 order-md-1 px-0">
           <div class="row justify-content-center">
             <div class="col-12 text-left">
               <p class="common-p">{{ .content | markdownify }}</p>
@@ -147,15 +139,13 @@
         </div>
       </div>
       
-      <div class="col-12 text-center">
-        <h3 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
+      
       <div class="row justify-content-center"> 
         
         {{ range .service_item }}
           <div class="col-md-4 order-md-3 mb-3 mb-md-0">
-            <div class="text-center">
-              <h4 class="mb-2 ">{{ .title | title }}</h4>
+            <div class="text-center pt-4">
+              <h4 class="mb-0">{{ .title | title }}</h4>
               <br>
             </div>
               
@@ -174,13 +164,13 @@
 <section class="section bg-yellow">
   <div class="container">
     <div class="row">
-      <div class="col-8 text-left">
+      <div class="col-8 px-0 text-left">
         <div class="row">
           <div class="col-12 text-left">
             <h2 class="section-title">{{ .title | markdownify }}</h2>
           </div>
         </div>
-        <div class="col-lg-12  text-left">
+        <div class="col-lg-12  px-0 text-left">
           <p class="work-p">{{ .content | markdownify }}</p>
         </div>
       </div>
