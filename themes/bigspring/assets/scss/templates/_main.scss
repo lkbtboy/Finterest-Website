@@ -1,7 +1,10 @@
 // banner
 .banner {
   padding: 100px 0 50px;
-  background-color: #1B1B68;
+  //background-color: #1B1B68;
+  background-image: url('/images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .banner-content {
