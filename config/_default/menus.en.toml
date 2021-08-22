@@ -6,12 +6,12 @@ weight = 1
 
 [[main]]
 name = "Products"
-url = "blog"
+url = "#feature"
 weight = 2
 
 [[main]]
 name = "Contact"
-url = "contact"
+url = "#contact"
 weight = 3
 
 # footer menu left

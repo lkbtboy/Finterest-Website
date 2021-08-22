@@ -28,7 +28,7 @@
           </li>
           {{ else }}
           <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
+            <a class="nav-link" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
           </li>
           {{ end }}
           {{ end }}
@@ -65,4 +65,26 @@
     </nav>
   </div>
 </header>
+
+<script>
+
+
+  var anchorlinks = document.querySelectorAll('a[href^="#"]')
+   
+  for (var item of anchorlinks) { 
+      item.addEventListener('click', (e)=> {
+          var hashval = e.srcElement.hash
+          var target = document.querySelector(hashval)
+          target.scrollIntoView({
+              behavior: 'smooth',
+              inline: 'nearest',
+              block: 'start'
+          })
+          history.pushState(null, null, hashval)
+          e.preventDefault()
+      })
+  }
+
+</script>
+
 {{ "<!-- /navigation -->" | safeHTML }}
