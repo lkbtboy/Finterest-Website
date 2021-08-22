@@ -64,11 +64,11 @@ nft:
   content : "Finterest’s key incubation and acquisition of NFT industries and assets include: digital art, Metaverse, emerging game industry, blockchain finance, IP intellectual property transactions, etc."
   title : "NFT's multiple investment methods"
   service_item:
-    - title : "Direct transaction"
+    - title : "Top NFTs"
       image : "images/nft1.jpg"
-    - title : "Invest in the NFT Industry Chain"
+    - title : "NFT`s Industry Chain"
       image : "images/nft2.jpg"
-    - title : "Trading assets in Metaverse"
+    - title : "Assets in Metaverse"
       image : "images/nft3.jpg"
 
 ################### work ########################
