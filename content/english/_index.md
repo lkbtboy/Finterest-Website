@@ -3,7 +3,7 @@
 banner:
   title : "Global  Crypto Prime Brokerage Business And Integrated Service Provider"
   image : "images/title.png"
-  content : "Finterest's mission is to channel and structure global<br> resources in regard to blockchain business and digital<br> assets for our clients and help them better the capital<br> allocation strategies and transform their businesses for<br> the upcoming crypto economy."
+  content : "Finterest's mission is to channel and structure global resources in regard to blockchain business and digital assets for our clients and help them better the capital allocation strategies and transform their businesses for the upcoming crypto economy."
   button:
     enable : false
     label : "Contact Us"
