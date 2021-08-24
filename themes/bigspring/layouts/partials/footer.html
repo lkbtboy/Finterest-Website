@@ -1,6 +1,7 @@
-<footer class="bg-dark section pb-0">
-  <div class="container">
+<footer class="bg-dark section pb-0 pt-0">
+  <div class="container">  
     <div class="row">
+      <!--
       <div class="col-md-3 col-sm-6 mb-5">
         {{ if site.Menus.footer_left }}
         <div class="h3 mb-4">{{ site.Params.footer_menu_left }}</div>
@@ -31,6 +32,7 @@
         </ul>
         {{ end }}
       </div>
+      
       <div class="col-md-3 col-sm-6 mb-5">
         <a class="d-block h3 mb-3" href="{{ site.BaseURL | absLangURL}}">
           {{ with site.Params.logo}}
@@ -46,8 +48,14 @@
         </ul>
         {{ end }}
       </div>
+      -->
     </div>
-    <div class="border-top border-default text-center py-4 mt-4">
+    <div class=" border-default text-center py-4 mt-1">
+      <a class="d-block h3 mb-3" href="{{ site.BaseURL | absLangURL}}">
+        {{ with site.Params.logo}}
+        <img width="{{site.Params.logo_width}}" class="img-fluid" src="{{ . | relURL }}" alt="{{ site.Title }}">
+        {{ else }}{{site.Title}}{{end}}
+      </a>
       <small class="content">{{ site.Params.Copyright | markdownify }}</small>
     </div>
   </div>

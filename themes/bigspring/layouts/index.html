@@ -160,6 +160,7 @@
 <!-- /nft -->
 
 <!-- work -->
+<!--
 {{ with .Params.work }}
 <section class="section bg-yellow" id="work">
   <div class="container">
@@ -185,6 +186,7 @@
   </div>
 </section>
 {{ end }}
+-->
 <!-- /work -->
 
 <!-- contact -->
@@ -197,6 +199,16 @@
     <div class="col-lg-8  mx-auto justify-content-center align-self-center text-center">
       <p class="work-p">{{ .content | markdownify }}</p>
     </div>
+    <div class="col-lg-8  mx-auto justify-content-center align-self-center text-center">
+      <p class="work-p">{{ .mail | markdownify }}</p>
+    </div>
+    {{ with site.Params.social }}
+        <ul class="list-inline social-icons justify-content-center align-self-center text-center">
+          {{ range . }}
+          <li class="list-inline-item"><a href="{{ .link | safeURL }}" title="{{ .title }}"><i class="{{ .icon }}"></i></a></li>
+          {{ end }}
+        </ul>
+    {{ end }}
   </div>
 </section>
 {{ end }}
