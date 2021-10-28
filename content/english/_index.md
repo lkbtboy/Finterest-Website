@@ -81,7 +81,7 @@ work:
 contact:
   title : "Contact Us"
   content : "Our mission is to increase economic freedom，for people and the world. Join us and make an impact on a global scale."
-  mail : "Mail: contact@finterest.net"
+  mail : "Mail: amy@finterest.net"
 
 ################### Screenshot ########################
 screenshot:
